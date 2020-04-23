@@ -16,23 +16,26 @@ body {
     color: white;
     background-color: navy;
     border: 3px solid white;
-    border-radius: 10px;
+    border-radius: 25px;
     padding: 10px;
     margin: 0px;
 }
 
 .navbar{
     display:flex;
-    height: 35px;
-    font-size: 24px;
+    height: 40px;
+    font-size: 28px;
     flex-flow: row;
+    align-items: center;
     justify-content: space-around;
     background-color: navy;
     color: white;
+    border: 3px solid white;
     padding: 10px;
 }
 .navbar__button {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .navbar__score--gameover {
@@ -52,7 +55,7 @@ body {
     column-gap: 0px;
     background-color: burlywood;
     border: 2px solid black;
-    margin: 30px;
+    margin: 20px;
     padding: 30px;
 }
 
